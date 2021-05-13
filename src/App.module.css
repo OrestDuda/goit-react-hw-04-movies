@@ -1,0 +1,10 @@
+.navigation {
+    list-style: none;
+    display: flex;
+    border-bottom: 2px solid black;
+}
+.link{
+    font-size:  24px;
+    font-weight: bold;
+    margin: 10px;
+}

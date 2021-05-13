@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    border: 2px solid black;
+}
+.movie_info {
+    padding: 25px;
+}
+.navigation {
+    list-style: none;
+}
+.navigation > li {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}

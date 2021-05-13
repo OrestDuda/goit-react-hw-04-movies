@@ -1,0 +1,15 @@
+.castList {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.castList > li{
+    margin: 10px;
+}
+.placeholder {
+    width: 220px;
+    height: 330px;
+}
+.roles {
+   width: 200px;
+}

@@ -1,0 +1,7 @@
+.list {
+    list-style: none;
+    font-size: 18px;
+}
+.list > li {
+    margin-bottom: 10px;
+}
