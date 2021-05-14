@@ -12,7 +12,12 @@ class HomePage extends Component {
   }
 
   render() {
-    return <MovieList list={this.state.films} />;
+    return (
+      <MovieList
+        list={this.state.films}
+        historyLocation={this.props.history.location.pathname}
+      />
+    );
   }
 }
 

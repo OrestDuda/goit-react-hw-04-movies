@@ -30,7 +30,12 @@ class MoviesPage extends Component {
           />
           <button type="submit">Search</button>
         </form>
-        {!this.state.search ? null : <MovieList list={this.state.search} />}
+        {!this.state.search ? null : (
+          <MovieList
+            list={this.state.search}
+            historyLocation={this.props.history.location.pathname}
+          />
+        )}
       </>
     );
   }
