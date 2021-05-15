@@ -30,8 +30,11 @@ class MovieDetailsPage extends Component {
     );
   }
   handleGoBack = () => {
-    const { location, history } = this.props;
-    history.push(location?.state?.from || "/");
+    if (this?.props?.location?.state?.from) {
+      this.props.history.push(this.props.location.state.from);
+    } else {
+      this.props.history.push("/");
+    }
   };
 
   render() {

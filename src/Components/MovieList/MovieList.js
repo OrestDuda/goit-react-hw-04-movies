@@ -29,8 +29,8 @@ const MovieList = ({ list, historyLocation }) => {
   );
 };
 MovieList.propTypes = {
-  historyLocation: PropTypes.string,
-  list: PropTypes.arrayOf(
+  historyLocation: PropTypes.object,
+  movieData: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.number,
       title: PropTypes.string,
